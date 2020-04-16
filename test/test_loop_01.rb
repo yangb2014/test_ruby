@@ -1,6 +1,0 @@
-#!ruby
-
-# comment : test loopback
-
-
-

@@ -1,5 +1,5 @@
 # Learn Ruby The Hard Way
 # En
 https://learnrubythehardway.org/book/
-# ÖÐÎÄ
+# ä¸­æ–‡
 http://lrthw.github.io/
