@@ -1,9 +1,0 @@
-
-1.
-  $ R -g Tk &
-  > source ("filename")
-
-2.
-  $ R CMD BATCH filename
-
-
