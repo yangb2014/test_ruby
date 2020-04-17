@@ -1,5 +1,6 @@
 #!/usr/bin/ruby -w
 
+# 条件判断
 x = 4
 
 # true/false 也是一等对象

@@ -7,7 +7,7 @@ properties.each do |property|
     puts "Ruby is #{property}"
 end
 
-# Hash
+# Hash 遍历
 hash = {canon: "camera", nikon: "camera", iphone: "phone"}
 hash.each do |key, value|
     puts "#{key} is a #{value}"

@@ -1,5 +1,6 @@
 #!/usr/bin/ruby -w
 
+# 字符串：puts 方法返回 nil
 puts "hello, world"
 
 # 变量不用事先声明
