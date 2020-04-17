@@ -1,6 +1,7 @@
 #!/usr/bin/ruby -w
 
 class Dog
+    @@count = 0  # Class variable
     attr :breed, :color, :name
 
     def self.total_count

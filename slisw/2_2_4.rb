@@ -8,9 +8,11 @@ puts x > 5
 puts false.class
 puts true.class
 
+# if/unless 条件判断：单行形式
 puts 'This appears to be false.' unless x == 4
 puts 'This appears to be true.' if x == 4
 
+# if/unless 条件判断：块形式
 if x == 4 then
     puts 'This appears to be true 2.'
 end
@@ -21,6 +23,7 @@ else
     puts 'This appears to be true 3.'
 end
 
+# flase/nil is false, other is true
 puts "random string is true" if 'random string'
 puts "0 is true" if 0
 puts "true is true" if true
