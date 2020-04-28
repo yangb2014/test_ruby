@@ -1,16 +1,34 @@
 # Ruby test codes
 
 ## 1. leetcode: Intruction to Ruby
-https://leetcode.com/explore/learn/card/become-a-web-developer/
+http://leetcode.com/explore/learn/card/become-a-web-developer/
 
 ## 2. Seven Languages in Seven Weeks
 
 ## 3. runoob lessons
-https://www.runoob.com/ruby/ruby-tutorial.html
+http://www.runoob.com/ruby/
 
 ## 4. Learn Ruby the Hard Way, 3rd Edition
 
 ## 5. Programming Ruby, The Ruby Programming Language, Meta-programming Ruby, etc.
+
+## 6. Reference
+
+### Offerical Documentation
+http://www.ruby-lang.org/en/documentation/
+
+### Programming Ruby
+http://ruby-doc.com/docs/ProgrammingRuby/
+
+### Official API Documentation
+http://docs.ruby-lang.org/en/
+
+### Ruby From Other Languages
+http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/
+
+### Third-party Libraries
+http://www.ruby-lang.org/en/libraries/
+
 
 # 命名建议
 
