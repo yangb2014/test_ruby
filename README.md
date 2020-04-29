@@ -31,10 +31,10 @@ http://www.ruby-lang.org/en/libraries/
 
 
 # Ruby 编码规范：在理想的世界里，遵循这些准则
-http://github.com/bbatsov/ruby-style-guide/
-http://github.com/bbatsov/rails-style-guide/
-http://stylesror.github.io/
-http://sideeffect.kr/popularconvention#ruby
+http://github.com/bbatsov/ruby-style-guide/   
+http://github.com/bbatsov/rails-style-guide/   
+http://stylesror.github.io/   
+http://sideeffect.kr/popularconvention#ruby   
 
 ## 源代码布局
 
