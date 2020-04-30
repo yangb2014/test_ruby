@@ -17,7 +17,7 @@ class Integer
 end
 3.my_times {puts "mangy moose"}
 
-# 分发可执行代码
+# 分发可执行代码: first-class parameter
 def call_back(&block)
     block.call
 end
