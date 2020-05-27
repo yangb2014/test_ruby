@@ -5,7 +5,7 @@ http://leetcode.com/explore/learn/card/become-a-web-developer/
 
 ## 2. Seven Languages in Seven Weeks
 
-## 3. runoob lessons
+## 3. runoob ruby tutorial lessons
 http://www.runoob.com/ruby/
 
 ## 4. Learn Ruby the Hard Way, 3rd Edition
@@ -17,17 +17,17 @@ http://www.runoob.com/ruby/
 ### Offerical Documentation
 http://www.ruby-lang.org/en/documentation/
 
-### Programming Ruby
-http://ruby-doc.com/docs/ProgrammingRuby/
-
 ### Official API Documentation
 http://docs.ruby-lang.org/en/
 
-### Ruby From Other Languages
-http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/
-
 ### Third-party Libraries
 http://www.ruby-lang.org/en/libraries/
+
+### Programming Ruby
+http://ruby-doc.com/docs/ProgrammingRuby/
+
+### Ruby From Other Languages
+http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/
 
 
 # Ruby 编码规范：在理想的世界里，遵循这些准则
