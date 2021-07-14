@@ -1,0 +1,6 @@
+source_dir: ./source
+target_dir: ./target
+delete_source: true
+photo_type: jpg, tiff
+camera_model: true
+date_time_patten: yyyy-mm
