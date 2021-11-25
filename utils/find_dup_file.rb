@@ -1,6 +1,7 @@
 #!/usr/bin/ruby -w
 
 require 'find'
+# require 'fileutils'
 require 'digest/md5'
 require 'digest/sha1'
 
@@ -25,6 +26,14 @@ def find_dup_algorithm(list)
     end.select { |_, v| v.size > 1 }
 end
 
+# @param {Array[String]} filename list
+# @return {Hash}
+def stat_file_size(list)
+    list.each_with_object(Hash.new(0)) do |filename, hash|
+        hash[File.extname(filename).downcase] += File::size?(filename)
+    end
+end
+
 # source file list
 source_dir = './source'
 file_list = []
@@ -34,6 +43,11 @@ Find.find(source_dir) do |filename|
 end
 
 puts "Analysis directory #{source_dir}. #{Time.now}"
+
+puts '---- file stats by type ----'
+dup = stat_file_size(file_list)
+dup.each { |k, v| puts "#{k} => #{v / (1024 * 1024)}" }
+
 puts '---- dupulate file name ----'
 dup = find_dup_filename(file_list)
 dup.each { |k, v| puts "#{k} => #{v.inspect}" }

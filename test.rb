@@ -2,6 +2,8 @@
 
 arr = []
 10.times { |i| arr << i }
-b = ['a', 'b', 'c'].product(arr).collect.each { |iter| iter.join('.') }
+b = %w[a b c].product(arr).collect.each { |iter| iter.join('.') }
 puts arr.inspect
 puts b.inspect
+
+# ~~ end ~~
